@@ -1,0 +1,87 @@
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    .desk {
+    display: block;
+}
+    .newsletter {
+    display: block;
+}
+    .ad {
+    display: block;
+}
+    .media {
+        display: none;
+    }
+    .mob_search {
+        display: none;
+    }
+    .search {
+    display: block;
+}
+    
+    .no_footer {
+        margin: 10px 5% 0;
+    }
+    
+    .socialmenu {
+        margin-right: 20px;
+        
+        li {
+            padding: 10px 20px 0;
+        } 
+        a {
+            
+        }
+    }
+   
+    .navbar {
+        background-color: white;
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid gainsboro;
+        margin: 0 10px;
+    
+    #navbar-container {
+        margin-right: -40px;
+    }
+    
+    .navbar-nav {
+        float: right;
+        margin-top: 25px;
+  
+    }
+         }
+    
+    #logo {
+        max-width: 250px;
+        margin-left: -20px;
+    }
+    .content {
+        margin: 0 10px;
+    }
+/* Search bar */
+
+    .search {
+        text-align: right;
+        margin-top: 20px;
+        margin-right: 35px;
+        
+        .form {
+            border: none;
+            border-bottom: 1px solid gainsboro;
+            margin-right: 10px;
+            width: 12%;
+        }
+        .button {
+            background-color: white;
+            border: none;
+        }
+        input[type="text"]:focus {
+        outline : none;
+}
+    }
+    
+}

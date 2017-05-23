@@ -1,0 +1,352 @@
+/*boje*/
+/* h2 naslovi sekcija*/
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@media only screen and (min-width: 1440px) {
+  body p {
+    font-size: 1em;
+    line-height: 1.6em;
+    padding: 5px 0; }
+
+  .article h3 {
+    font-size: 1.7em;
+    line-height: 1.1em; }
+
+  .contact {
+    font-size: 1.1em; }
+    .contact h5 {
+      font-size: 1em; }
+
+  .socialmenu a {
+    font-size: 1.1em; }
+
+  .navbar-nav li {
+    font-size: 1.1em; }
+
+  .newsletter {
+    font-size: 1.1em; }
+    .newsletter h4 {
+      font-size: 1.2em; }
+
+  .fa-search {
+    font-size: 1.1em; } }
+@media only screen and (min-width: 1920px) {
+  body p {
+    font-size: 1.2em; }
+    body p .read_more {
+      font-size: 1em; }
+
+  .article h3 {
+    font-size: 2em;
+    line-height: 1.2em; }
+
+  .socialmenu a {
+    font-size: 1.2em; }
+
+  .navbar-nav li {
+    font-size: 1.2em; }
+
+  .newsletter {
+    font-size: 1.2em; }
+    .newsletter h4 {
+      font-size: 1.3em; }
+
+  .fa-search {
+    font-size: 1.2em; } }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+.socialmenu {
+  text-align: right;
+  margin-right: 10px; }
+  .socialmenu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 8px 0 8px;
+    font-size: 1.25em;
+    height: 100%; }
+  .socialmenu a {
+    color: black; }
+
+#contact {
+  color: darkturquoise; }
+
+#logo {
+  margin-top: 5px;
+  margin-left: 5px;
+  max-width: 180px;
+  padding-bottom: 5px; }
+
+.search {
+  padding-left: 15px;
+  margin-top: 5px; }
+
+.naslov_sekcije {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  padding: 5px 0; }
+
+.article .thumbnail {
+  max-width: 100%;
+  padding: 0;
+  margin: 0; }
+.article .content {
+  padding: 0 10px; }
+.article .tema {
+  margin-top: 10px;
+  margin-left: 15px; }
+.article .tema a {
+  color: darkturquoise;
+  text-shadow: grey;
+  text-decoration: none; }
+.article .read_more a {
+  color: darkturquoise;
+  text-shadow: grey;
+  text-decoration: none; }
+.article h3 {
+  margin: -5px 5px 10px; }
+.article .text {
+  padding: 0 5px; }
+
+.read_more {
+  font-size: 14px; }
+
+.datum {
+  text-align: right;
+  margin-right: 10px; }
+
+h3 a {
+  color: black;
+  font-weight: 800; }
+h3 a:hover {
+  color: black;
+  text-decoration: none; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  padding: 0 20px;
+  position: relative;
+  color: darkturquoise; }
+
+.naslov_komande {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center; }
+
+.media .media-object {
+  padding-left: 10px; }
+.media .media-heading {
+  font-size: 1em;
+  font-weight: 800; }
+.media .tema {
+  margin-top: -5px;
+  margin-left: 5px; }
+.media .tema a {
+  color: darkturquoise;
+  text-shadow: grey;
+  text-decoration: none;
+  font-size: 0.9em; }
+
+.contact {
+  background-color: ghostwhite;
+  color: darkslategrey;
+  padding: 15px 0 10px;
+  border-top: 1px solid #F2F2F2; }
+  .contact h5 {
+    text-align: center; }
+  .contact p {
+    text-align: center;
+    font-size: 0.8em; }
+  .contact .tacka {
+    color: deeppink; }
+
+footer {
+  background-color: black;
+  color: gray;
+  font-size: 0.8em;
+  padding: 15px 0 10px;
+  text-align: center; }
+
+.desk {
+  display: none; }
+
+.newsletter {
+  display: none; }
+
+.ad {
+  display: none; }
+
+.search {
+  display: none; }
+
+.navbar-toggle {
+  background-color: #f9f9f9; }
+
+.navbar-toggle:active {
+  background-color: #f9f9f9; }
+
+.mob_search {
+  text-align: right;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  width: 100%; }
+  .mob_search .mob_form {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    margin-right: 10px;
+    background-color: #f9f9f9; }
+  .mob_search .mob_form:focus {
+    background-color: white; }
+  .mob_search .mob_button {
+    background-color: #f9f9f9;
+    border: none; }
+  .mob_search input[type="text"]:focus {
+    outline: none; }
+
+/* za uredjaje preko 768px */
+@media only screen and (min-width: 768px) {
+  .desk {
+    display: block; }
+
+  .newsletter {
+    display: block; }
+
+  .ad {
+    display: block; }
+
+  .media {
+    display: none; }
+
+  .mob_search {
+    display: none; }
+
+  .search {
+    display: block; }
+
+  .no_footer {
+    margin: 10px 5% 0; }
+
+  .socialmenu {
+    margin-right: 20px; }
+    .socialmenu li {
+      padding: 10px 20px 0; }
+
+  .navbar {
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gainsboro;
+    margin: 0 10px; }
+    .navbar #navbar-container {
+      margin-right: -40px; }
+    .navbar .navbar-nav {
+      float: right;
+      margin-top: 25px; }
+
+  /* pazi kad menjas ove boots. kategorije da bude ceo izraz a ne dve reci!
+  Smisli sta ces za search, i za mob i za desk */
+  .naslov_sekcije {
+    font-size: 2.5em; }
+
+  .main {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 20%;
+    grid-template-rows: auto; }
+
+  .carousel {
+    grid-column: 1/4;
+    grid-row: 1/2; }
+
+  .newsletter {
+    grid-column: 4/5;
+    grid-row: 1/4;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px; }
+    .newsletter p {
+      font-size: 0.8em; }
+    .newsletter h4 {
+      font-weight: 200; }
+    .newsletter .button {
+      background-color: black;
+      color: white;
+      font-size: 0.9em;
+      padding: 5px 0;
+      border-radius: 6px;
+      border: none; }
+    .newsletter .input {
+      border-radius: 6px; }
+
+  .ads .ad {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px; }
+  .ads .one {
+    background-color: antiquewhite; }
+  .ads .two {
+    background-color: #d0f0c0; }
+  .ads .three {
+    background-color: aliceblue; }
+  .ads .four {
+    background-color: lightyellow; }
+
+  .popular {
+    grid-column: 1/4;
+    grid-row: 2/3; }
+    .popular .articles {
+      display: flex; }
+
+  .culture {
+    grid-column: 1/4;
+    grid-row: 3/4; }
+    .culture .articles {
+      display: flex; }
+
+  .fashion {
+    grid-column: 1/4;
+    grid-row: 4/5; }
+    .fashion .articles {
+      display: flex; }
+
+  .figure {
+    padding: 10px 0 10px 15px; }
+
+  #logo {
+    max-width: 250px;
+    margin-left: -20px; }
+
+  .content {
+    margin: 0 10px; }
+
+  /* Search bar */
+  .search {
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 35px; }
+    .search .form {
+      border: none;
+      border-bottom: 1px solid gainsboro;
+      margin-right: 10px;
+      width: 12%; }
+    .search .button {
+      background-color: white;
+      border: none; }
+    .search input[type="text"]:focus {
+      outline: none; } }
+@media only screen and (min-width: 1920px) {
+  .naslov_sekcije {
+    font-size: 3em; } }
+
+/*# sourceMappingURL=index.css.map */

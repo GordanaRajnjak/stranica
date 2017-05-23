@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Online magazine</title>
+ 
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="sass/Index.css" type="text/css" media="all">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+
+    
+  
+
+</head>
+
+<body>
+
+    <div class="no_footer">
+
+    <!-- social  menu -->
+
+    <div class="socialmenu">
+    <ul>
+        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.itunes.com/"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+    </ul>
+ </div>
+    
+
+    <!-- nav  menu -->
+   
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-container">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a href="Index.html"><img id="logo" class="img-responsive" src="logo/logo-manja.png"></a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navbar-container">
+    <ul class="nav navbar-nav">
+                    <li><a href="Index.html">Magazine</a></li>
+                    <li><a href="Sekcija.html">Culture</a></li>
+                    <li><a href="#Fashion">Fashion</a></li>
+                    <li><a href="#LifeStyle">Lifestyle</a></li>
+                    <li><a href="#Movie">Movie</a></li>
+                    <li><a href="#Book">Book</a></li>
+                    <li><a id="contact" href="Contact.html">Contact</a></li>
+                    <li class="mob_search_li"><div class="mob_search">
+    <input type="text" class="mob_form"><button class="mob_button" type="button"><i class="fa fa-search"></i></button></div></li>
+                    
+        </ul>
+    </div>
+        </div>
+    </nav>
+    
+        
+        <!-- search bar -->
+        <div class="search">
+    <input type="text" class="form"><button class="button" type="button"><i class="fa fa-search"></i></button>
+        </div>
+        
+        
+    
+    <div class="main">
+    
+  <!-- Carousel -->
+        
+        <div class="carousel">
+   
+    <div class="naslov_komande">
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <h2 class="naslov_sekcije">Today...</h2>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+        </div>
+        
+    
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    
+    <!-- Wrapper for carousel items -->
+    
+        
+        <div class="carousel-inner">
+           
+            <div class="item active">
+    <div class="article">
+      <figure class="figure">
+            <a href="Clanak.html"><img class="thumbnail" src="velike_fotke/lifestyle/hipstersound.jpg" alt="pic_from_lifestyle"> </a>
+          </figure>  
+    <div class="content">
+            <p class="tema"><a href="Sekcija.html">Lifestyle</a></p>
+            <h3><a href="Clanak.html">Heartwarming Coffee That Will Lighten Up Your Day</a></h3>
+            <p class="text">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of berries...&nbsp;<span class="read_more"><a href="Clanak.html">Read more</a></span></p>
+            <p class="datum">Miranda, today</p>
+            </div>
+        </div>  
+            </div>
+      
+    
+
+    <div class="item">
+    <div class="article">
+        <figure class="figure">
+        <a href="#"><img class="thumbnail" src="velike_fotke/kultura/knjige/6d26d8771209929687845a5235b60eda.jpg" alt="pic_from_art"></a>
+            </figure> 
+        <div class="content">
+            <p class="tema"><a href="#">Books</a></p>
+            <h3><a href="#">Is It More Than “Old Book Smell”?</a></h3>
+            <p class="text">'It is a good rule after reading a new book, never to allow yourself another new one till you have...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Josh, today</p>
+            </div>
+        </div>
+            </div>
+            
+        
+    <div class="item">
+    <div class="article">
+        <figure class="figure">
+        <a href="#"><img class="thumbnail" src="velike_fotke/kultura/umetnost/Art_Gallery_of_the_-Poco_Bonito-_Project-2.jpg" alt="pic_of_culture"></a>
+        </figure> 
+        <div class="content">
+            <p class="tema"><a href="#">Culture</a></p>
+            <h3><a href="#">From chip shop to art gallery: Kazem Hakimi</a></h3>
+            <p class="text">The birth of modernism and modern art can be traced back to the Industrial Revolution, a period...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Alice, today</p>
+            </div>
+        </div>
+            </div>
+            
+        </div>
+    </div>
+          <hr>   
+    </div>
+        
+        <div class="newsletter"> 
+        <a href="#"><img class="img_newsletter img-responsive" src="logo/page_1_thumb_large.jpg" alt="pic_of_magazine"></a>
+            <div class="text">
+                <h4>Purpose Magazine</h4>
+            <p>Beautiful and informative, Purpose is one of the leading publications for culture in general.</p>
+                <hr>
+                <p>Sign up to the Purpose newsletter:</p>
+            </div>
+            <form>
+            
+            <input type="email" name="email" class="input" style="width: 100%;" >
+                <br>
+                <br>
+                <button type="submit" class="button" style="width: 100%;">Sign Up</button>
+          
+            </form>
+            
+            <div class="ads">
+            
+                <div class="ad one">
+                    <h3>Ad</h3>
+                </div>
+                <div class="ad two">
+                    <h3>Ad</h3>
+                </div>
+                <div class="ad three">
+                    <h3>Ad</h3>
+                </div>
+                <div class="ad four">
+                    <h3>Ad</h3>
+                </div>
+                <div class="ad one">
+                    <h3>Ad</h3>
+                </div>
+                <div class="ad two">
+                    <h3>Ad</h3>
+                </div>
+                <div class="ad three">
+                    <h3>Ad</h3>
+                </div>
+                <div class="ad four">
+                    <h3>Ad</h3>
+                </div>
+                
+            
+            </div>
+        </div>
+    
+    
+    <!-- Most poplular... -->
+    
+       
+        
+<div class="popular">
+     <h2 class="naslov_sekcije">Most popular...</h2>
+    
+    <div class="articles">
+    
+     <article class="article">
+         <figure class="figure">
+             <a href="#"><img class="img-responsive" src="velike_fotke/fashion/0ba4f7899d797793ffd9da50656c86df.jpg" alt="pic_from_fashion"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Fashion</a></p>
+            <h3><a href="#">Sridevi's daughter, Jhanvi, looks like an Indian princess</a></h3>
+            <p class="text">Known for his luxurious, contemporary style that fuses traditional Indian colors, fabrics and...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Carrie, May 3, 2017</p>
+            </div>
+    </article> 
+    
+    <!-- Most poplular...koji se vide na desktopu -->
+    
+    <article class="article desk">
+         <figure class="figure">
+             <a href="#"><img class="img-responsive" src="velike_fotke/lifestyle/simple-lifestyle-changes-to-get-more-exercise-and-a-better-diet.jpg" alt="pic_from_lifesyle"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Lifestyle</a></p>
+            <h3><a href="#">Love of Sweets Comes from Genes, Danish Scientists Say</a></h3>
+            <p class="text">Known for his luxurious, contemporary style that fuses traditional Indian colors, fabrics and...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Marina, May 3, 2017</p>
+            </div>
+    </article> 
+    
+    <article class="article desk">
+         <figure class="figure">
+             <a href="#"><img class="img-responsive" src="velike_fotke/kultura/filmovi/5b4d03797bdceeb07f2a891acf659c1e.jpg" alt="pic_from_movie"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Movies</a></p>
+            <h3><a href="#">Fans loved them, critics hated them: Popular movies 2016</a></h3>
+            <p class="text">Known for his luxurious, contemporary style that fuses traditional Indian colors, fabrics and...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">David, May 3, 2017</p>
+            </div>
+    </article> 
+        </div>
+    <hr>
+    
+    <!-- Most poplular...koji se vide na mob -->
+    
+    <div class="media">
+       
+        <div class="media-left">
+             <a href="#">
+                 <img class="media-object" src="najmanje_fotke/lifestyle/simple-lifestyle-changes-to-get-more-exercise-and-a-better-diet-crop.jpg" alt="pic_from_lifestyle">
+            </a>
+            </div>
+        <div class="media-body">
+            <p class="tema"><a href="#">Lifestyle</a></p>
+            <h3 class="media-heading">Love of Sweets Comes from Genes, Danish Scientists Say</h3>
+            
+        </div>
+         <hr>
+    </div>
+   
+     <div class="media">
+         <div class="media-left">
+         <a href="#">
+             <img class="media-object" src="najmanje_fotke/kultura/filmovi/5b4d03797bdceeb07f2a891acf659c1e_30_3.jpg" alt="pic_from_movie">
+            </a>
+         </div>
+         <div class="media-body">
+             <p class="tema"><a href="#">Movies</a></p>
+            <h3 class="media-heading">Fans loved them, critics hated them: Popular movies 2016</h3>
+         </div>
+          <hr>
+    </div>
+    
+</div>
+    
+    
+    <!-- Culture -->
+    
+<div class="culture">
+    <h2 class="naslov_sekcije">Culture...</h2>
+    
+    
+    
+     <article class="article">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/kultura/umetnost/Alexiahome2.jpg" alt="pic_from_culture"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Culture</a></p>
+            <h3><a href="#">It's World Homeopathy Week! All 8 Days of It</a></h3>
+            <p class="text">Since it's World Homeopathy Week, this provides the prefect opportunity for some self reflection and humility...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Lilly, May 3, 2017</p>
+            </div>
+         <hr>
+    </article> 
+    
+    
+    
+    <!-- Culture...koji se vide na desk -->
+    
+    <div class="articles">
+    
+     <article class="article desk">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/kultura/umetnost/HOMEPAGE-BANNER-Sugar-Spin.jpg" alt="pic_from_culture"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Culture</a></p>
+            <h3><a href="#">Derby week fashion: Stylist shows the hot colors, trends and hat</a></h3>
+            <p class="text">Since it's World Homeopathy Week, this provides the prefect opportunity for some self reflection and humility...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Anne, May 3, 2017</p>
+            </div>
+    </article> 
+     
+        <article class="article desk">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/kultura/umetnost/John-Badcock_TimMan_main.jpg" alt="pic_from_culture"></a>
+        </figure>
+        <div class="content">
+            <p class="tema"><a href="#">Culture</a></p>
+            <h3><a href="#">Mystery painting of Mone found, returned to family in Paris last week</a></h3>
+            <p class="text">Since it's World Homeopathy Week, this provides the prefect opportunity for some self reflection and humility...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Miranda, April 29, 2017</p>
+            </div>
+    </article> 
+        
+        <article class="article desk">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/kultura/umetnost/maxresdefault.jpg" alt="pic_from_culture"></a>
+        </figure>
+        <div class="content">
+            <p class="tema"><a href="#">Culture</a></p>
+            <h3><a href="#">LA's Marciano art museum will debut May 25. But first: A sneak peek</a></h3>
+            <p class="text">Since it's World Homeopathy Week, this provides the prefect opportunity for some self reflection and humility...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Lilly, April 29, 2017</p>
+            </div>
+    </article> 
+        </div>
+    
+    
+    <!-- Culture...koji se vide na mob -->
+    
+    <div class="media">
+       
+        <div class="media-left">
+             <a href="#">
+                 <img class="media-object" src="najmanje_fotke/kultura/umetnost/HOMEPAGE-BANNER-Sugar-Spin_2.jpg" alt="pic_from_culture">
+            </a>
+            </div>
+        <div class="media-body">
+            <p class="tema"><a href="#">Culture</a></p>
+            <h3 class="media-heading">Derby week fashion: Stylist shows the hot colors, trends and hat</h3>
+            
+        </div>
+          <hr>
+    </div>
+    
+     <div class="media">
+         <div class="media-left">
+         <a href="#">
+             <img class="media-object" src="najmanje_fotke/kultura/umetnost/John-Badcock_TimMan_main_crop.jpg" alt="pic_from_culture">
+            </a>
+         </div>
+         <div class="media-body">
+             <p class="tema"><a href="#">Culture</a></p>
+            <h3 class="media-heading">Mystery painting of Mone found, returned to family in Paris last week</h3>
+         </div>
+           <hr>
+    </div>
+    
+   
+</div>
+    
+    
+     <!-- Fashion -->
+    
+    
+    <div class="fashion">
+    <h2 class="naslov_sekcije">Fashion...</h2>
+        
+       
+    
+     <article class="article">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/fashion/f5b1436874e2b9f3ff78d50b4c330d34.jpg" alt="pic_from_fashion"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Fashion</a></p>
+            <h3><a href="#">Kilele - Celebrate diversity, beauty and culture through fashion</a></h3>
+            <p class="text">Ethno Fashion Gala is an annual event to celebrate diversity, beauty and culture through fashion, music and arts...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Agatha, May 3, 2017</p>
+            </div>
+    </article> 
+        <hr>
+        
+        <!-- fashion...koji se vide na desc -->
+        
+         <div class="articles">
+        
+        <article class="article desk">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/fashion/Kendall-Jenner-Victorias-Secret-01-1920x1080.jpg" alt="pic_from_fashion"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Fashion</a></p>
+            <h3><a href="#">Victoria's Secret models show off their slim figures in lacy lingerie</a></h3>
+            <p class="text">Ethno Fashion Gala is an annual event to celebrate diversity, beauty and culture through fashion, music and arts...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Milana, May 3, 2017</p>
+            </div>
+    </article> 
+        
+        <article class="article desk">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/fashion/VIFF-featured1.jpg" alt="pic_from_fashion"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Fashion</a></p>
+            <h3><a href="#">Rachel Peters bags Miss Universe Philippines 2017 crown</a></h3>
+            <p class="text">Ethno Fashion Gala is an annual event to celebrate diversity, beauty and culture through fashion, music and arts...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Lilly, May 3, 2017</p>
+            </div>
+    </article> 
+            
+            <article class="article desk">
+        <figure class="figure">
+            <a href="#"><img class="img-responsive" src="velike_fotke/fashion/Fashion-Home-Interiors-2016-New-Colors-Paper-Cotton-Landing-Page-Slide1.jpg" alt="pic_from_fashion"></a>
+        </figure>
+            
+        <div class="content">
+            <p class="tema"><a href="#">Fashion</a></p>
+            <h3><a href="#">American Fashion Has Gotten More Colorful. Here's What Changed</a></h3>
+            <p class="text">Ethno Fashion Gala is an annual event to celebrate diversity, beauty and culture through fashion, music and arts...&nbsp;<span class="read_more"><a href="#">Read more</a></span></p>
+            <p class="datum">Anne, May 3, 2017</p>
+            </div>
+    </article> 
+        </div>
+  
+    
+        <!-- fashion...koji se vide na mob -->
+        
+    <div class="media">
+       
+        <div class="media-left">
+             <a href="#">
+                 <img class="media-object" src="najmanje_fotke/fashion/Kendall-Jenner-Victorias-Secret-01-1920x1080_1_crop.jpg" alt="pic_from_fashion">
+            </a>
+            </div>
+        <div class="media-body">
+            <p class="tema"><a href="#">Fashion</a></p>
+            <h3 class="media-heading">Victoria's Secret models show off their slim figures in lacy lingerie</h3>
+            
+        </div>
+          <hr>
+    </div>
+    
+     <div class="media">
+         <div class="media-left">
+         <a href="#">
+             <img class="media-object" src="najmanje_fotke/fashion/VIFF-featured1_crop.jpg" alt="pic_from_fashion">
+            </a>
+         </div>
+         <div class="media-body">
+             <p class="tema"><a href="#">Fashion</a></p>
+            <h3 class="media-heading">Rachel Peters bags Miss Universe Philippines 2017 crown</h3>
+         </div>
+    </div>
+    
+
+</div>
+    
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    
+</div>
+    <div class="contact">
+        
+        <h5><b>Purpose<span class="tacka">.</span> Magazine</b></h5>
+           <p>Augusta Cesarca<br>
+            Novi Sad<br>
+            21000</p>
+
+<p>(+381) 66 432 926</p>
+        
+    </div>
+    
+    
+    <footer class="footer">
+        
+        <p>&copy; 2017 Purpose Magazine Ltd. Registered in Serbia.</p>
+    
+    </footer>
+    
+    
+
+
+</body>
+</html>

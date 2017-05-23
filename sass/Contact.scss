@@ -1,0 +1,232 @@
+@import "base/variables.scss";
+@import "base/sekcijabase.scss";
+@import "base/mqforbig.scss";
+@import url('https://fonts.googleapis.com/css?family=Rochester');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.photo_main {
+    margin-top: -30px;
+   
+}
+
+h1 {
+   
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 0 black, 2px 2px black; 
+    font-size: 8vw;
+    margin-top: -90px;
+   
+}
+
+
+
+.text {
+    margin-top: 80px;
+    padding-left: 20px;
+    font-weight: 600;
+   letter-spacing: 0.1em;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20% ;   
+    padding-bottom: 20px;
+    
+    
+    .strong {
+        font-weight: 900;
+    }
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 800;
+}
+.office {
+    text-align: center;
+    
+    margin-bottom: 40px;
+    border-top: 1px solid gainsboro;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 20px;
+    
+}
+    
+    
+
+.all_contact {
+    margin-bottom: 70px;
+}
+.icons {
+    padding-right: 5px;
+}
+
+#map {
+        max-width: 100%;
+        height: 200px;
+        background: grey;
+        
+    }
+
+#text_headline {
+    display: none;
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    
+    body {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+    
+    #text_headline {
+    display: block;
+}
+    
+    
+    .photo_main {
+      margin: 0;
+        padding: 0;
+        
+    }
+    .text {
+        
+        margin: 0;
+        margin-left: 2%;
+        text-align: center;
+        vertical-align: middle;
+         border: none;
+        width: 30%;
+        line-height: 2em;
+        }
+    #text_headline {
+            margin-bottom: 80px;
+            font-weight: 900;
+        font-size: 1.5em;
+    }
+    .img_text {
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .figure {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+       position: relative;
+    }
+    h1 {
+        font-size: 2em;
+        
+       margin: 0;
+        position: absolute;
+        top: 130px;
+        left: 20px;
+        width: 200px;
+    }
+    
+    
+    .all_contact {
+        display: flex;
+      
+        justify-content: center;
+        
+        margin-top: 20px;
+        
+    }
+    .office {
+        margin: 0;
+        border: none;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 80px;
+        border-bottom: 1px solid gainsboro;
+        h2 {
+            padding-bottom: 10px;
+        }
+        .call {
+            
+        }
+        
+    }
+    
+    
+    #map {
+        max-width: 100%;
+        height: 400px;
+        background: grey;
+        
+        
+    }
+    
+    
+}
+
+@media only screen and (min-width: 1000px) {
+    h1 {
+        width: 300px;
+        top: 200px;
+        left: 0;
+        font-size: 2.5em;
+}
+}
+
+@media only screen and (min-width: 1440px) {
+    h1 {
+        width: 300px;
+        top: 230px;
+        left: 20px;
+        font-size: 3em;
+}
+    #text_headline {
+        font-size: 1.5em;
+}
+    
+    h2 {
+        font-size:1.2em;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .img_text {
+        margin-left: 10%;
+        margin-right: 10%;  
+    }
+    .text {
+        margin-left: 5%;
+    }
+    
+}
+
+@media only screen and (min-width: 1920px) {
+    .img_text {
+        margin-left: 15%;
+        margin-right: 15%;  
+    }
+    .text {
+        margin-left: 10%;
+    }
+    #text_headline {
+        font-size: 1.8em;
+}
+    h2 {
+        font-size:1.3em;
+    }
+    #office_headline {
+        font-size: 1.5em;
+
+        
+    }
+}
