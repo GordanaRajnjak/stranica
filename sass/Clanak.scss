@@ -18,9 +18,9 @@
 
 .photo {
     width: 100%;
-    padding: 0;
+    padding: 10px 0;
     margin: 0;
-    padding: 10px;
+   
     
    
 }
@@ -35,14 +35,17 @@ h1 {
     line-height: 1.5em;
 }
 
-.content {
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 1.5em;
+.article {
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 1.5em;
+}
 }
 .author {
           font-size: 0.85em;
             margin-bottom: 30px;
+
         }
 .quote {
     font-style: italic;
@@ -71,9 +74,7 @@ h1 {
   font-weight: 600;
     letter-spacing: 0.1em;
 }
-.text {
-    margin-top: 20px;
-}
+
 
 .border {
     border: 3px dotted $tirkizna;
@@ -85,9 +86,6 @@ h1 {
 
 
 .share_all {
-    
-    margin-left: 30px;
-
     
     .share {
   padding: 10px;
@@ -146,7 +144,7 @@ h1 {
     }
     .tema {
         margin-top: -5px;
-        margin-left: 5px;
+        
     }
     .tema a {
         color: $tirkizna;
@@ -163,6 +161,10 @@ h1 {
         .on_img {
             display: none;
 }
+
+.display_parag {
+        display: none;
+    }
 
 
 @media only screen and (min-width: 768px) {
@@ -189,19 +191,19 @@ h1 {
     }
     
 
-    
+    .article {
     .content {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        
+        display: flex;
+        padding: 0;
+        margin: 0;
         margin-top: 60px;
+        
     }
+            }
     
     .first {
-        grid-column: 1/2;
-        grid-row: auto;
-    
+        max-width: 33.3%;
+        padding-right: 20px;
         .author {
           font-size: 0.9em;
             margin-bottom: 60px;
@@ -209,19 +211,16 @@ h1 {
        
     }
     .second {
-         grid-column: 2/3;
-        grid-row: auto;
-     
+         max-width: 33.3%;
+        padding: 0 20px;
+        
     }
     .third {
-         grid-column: 3/4;
-        grid-row: auto;
-      
+         max-width: 33.3%;
+      padding-left: 20px;
     }
     
-    .column {
-        padding: 0 20px;
-    }
+    
     
     .figure {
         margin: 0;
@@ -261,16 +260,23 @@ h1 {
     }
     .related_articles {
         display: flex;
+        margin-left: 0;
+        margin-right: 0;
         
         .media_two {
             margin-left: 2%;
         }
+            
+            .tema {
+               margin-left: 10px; 
+            }
+        }
         
-    }
+
     
     #related {
         border-bottom: 1px solid $tirkizna;
-        width: 300px;
+        width: 280px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 50px;
@@ -305,6 +311,9 @@ h1 {
 }
 
 @media only screen and (min-width: 1440px) {
+    .display_parag {
+        display: block;
+    }
     .quote {
         font-size: 1.1em;
         padding: 3% 20%;
@@ -326,10 +335,10 @@ h1 {
     }
     
     .photo {
-        padding: 0 20px;
+        
     }
     .blue_photo {
-        padding: 10px 30px 0;
+        padding: 10px 0 0;
     }
     
     .related_articles {

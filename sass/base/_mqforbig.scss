@@ -4,8 +4,15 @@
             font-size: 1em;
             line-height: 1.6em;
             padding: 5px 0;
+        }
+            
+             .article {
+        .tema {
+            font-size: 1.1em;
+        }
     }
     }
+
     
     .article {
               
@@ -46,6 +53,9 @@
     .fa-search {
         font-size: 1.1em;
     }
+    
+   
+    
 }
 
 
@@ -54,16 +64,20 @@
     body {
         p {
             font-size: 1.2em;
+        }
+            .tema {
+            font-size: 1.3em;
+        }
             
             .read_more {
-        font-size: 1em;
+        font-size: 0.9em;
                     }
         }
-    }
+    
           .article {
               
         h3 {
-            font-size: 2em;
+            font-size: 1.8em;
             line-height: 1.2em;
             }
         }

@@ -29,7 +29,7 @@ body {
 
 #logo {
   margin-top: 5px;
-  margin-left: 5px;
+  margin-left: 7px;
   max-width: 180px; }
 
 .search {
@@ -46,10 +46,10 @@ body {
   padding: 0;
   margin: 0; }
 .article .content {
-  padding: 0 10px; }
+  margin-left: 15px;
+  margin-right: 15px; }
 .article .tema {
-  margin-top: 10px;
-  margin-left: 15px; }
+  margin-top: 10px; }
 .article .tema a {
   color: darkturquoise;
   text-shadow: grey;
@@ -59,16 +59,15 @@ body {
   text-shadow: grey;
   text-decoration: none; }
 .article h3 {
-  margin: -5px 5px 10px; }
+  margin: -5px 0 10px; }
 .article .text {
-  padding: 0 5px; }
+  padding: 0; }
 
 .read_more {
   font-size: 14px; }
 
 .datum {
-  text-align: right;
-  margin-right: 10px; }
+  text-align: right; }
 
 h3 a {
   color: black;
@@ -94,7 +93,7 @@ footer {
   background-color: black;
   color: gray;
   font-size: 0.8em;
-  padding: 15px 0 10px;
+  padding: 15px 0 5px;
   text-align: center; }
 
 .newsletter {
@@ -147,35 +146,30 @@ footer {
   .no_footer {
     margin: 10px 5% 0; }
 
-  .socialmenu {
-    margin-right: 20px; }
-    .socialmenu li {
-      padding: 10px 20px 0; }
+  .socialmenu li {
+    padding: 10px 0 0 40px; }
 
   .navbar {
     background-color: white;
     border: none;
     border-radius: 0;
     border-bottom: 1px solid gainsboro;
-    margin: 0 10px; }
+    margin: 0; }
     .navbar #navbar-container {
       margin-right: -40px; }
     .navbar .navbar-nav {
       float: right;
       margin-top: 25px; }
 
+  .flexbox {
+    display: flex; }
+
   .main {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 20%;
-    grid-template-rows: auto; }
+    max-width: 80%; }
 
   .newsletter {
-    grid-column: 4/5;
-    grid-row: 1/7;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 17%;
+    margin-left: 3%;
     margin-top: 80px; }
     .newsletter p {
       font-size: 0.8em; }
@@ -206,42 +200,29 @@ footer {
     .newsletter .ads .four {
       background-color: lightyellow; }
 
-  #may {
-    grid-column: 1/4;
-    grid-row: 1/2; }
-
   .may {
-    grid-column: 1/4;
-    grid-row: 2/3;
     display: flex; }
 
-  #april {
-    grid-column: 1/4;
-    grid-row: 3/4; }
-
   .april {
-    grid-column: 1/4;
-    grid-row: 4/5;
     display: flex; }
     .april .ghost {
       display: block;
       visibility: hidden; }
 
   .figure {
-    padding: 10px; }
+    padding: 10px 0; }
 
   #logo {
     max-width: 250px;
-    margin-left: -20px; }
+    margin-left: -25px; }
 
-  .content {
-    margin: 0 10px; }
+  .article .content {
+    margin: 0; }
 
   /* Search bar */
   .search {
     text-align: right;
-    margin-top: 40px;
-    margin-right: 35px; }
+    margin-top: 40px; }
     .search .form {
       border: none;
       border-bottom: 1px solid gainsboro;
@@ -257,6 +238,8 @@ footer {
     font-size: 1em;
     line-height: 1.6em;
     padding: 5px 0; }
+  body .article .tema {
+    font-size: 1.1em; }
 
   .article h3 {
     font-size: 1.7em;
@@ -283,11 +266,13 @@ footer {
 @media only screen and (min-width: 1920px) {
   body p {
     font-size: 1.2em; }
-    body p .read_more {
-      font-size: 1em; }
+  body .tema {
+    font-size: 1.3em; }
+  body .read_more {
+    font-size: 0.9em; }
 
   .article h3 {
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1.2em; }
 
   .socialmenu a {
@@ -311,9 +296,8 @@ footer {
 
 .photo {
   width: 100%;
-  padding: 0;
-  margin: 0;
-  padding: 10px; }
+  padding: 10px 0;
+  margin: 0; }
 
 h1 {
   font-size: 1.6em;
@@ -322,7 +306,7 @@ h1 {
   padding: 0 20px;
   line-height: 1.5em; }
 
-.content {
+.article .content {
   margin-left: 20px;
   margin-right: 20px;
   line-height: 1.5em; }
@@ -356,9 +340,6 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.1em; }
 
-.text {
-  margin-top: 20px; }
-
 .border {
   border: 3px dotted darkturquoise;
   border-radius: 8px;
@@ -366,24 +347,22 @@ h1 {
   margin-bottom: 30px;
   margin-top: 20px; }
 
-.share_all {
-  margin-left: 30px; }
-  .share_all .share {
-    padding: 10px;
-    font-size: 20px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px; }
-  .share_all .fa-facebook {
-    background: #3B5998;
-    color: white; }
-  .share_all .fa-twitter {
-    background: #55ACEE;
-    color: white; }
-  .share_all .fa-pinterest {
-    background: #cb2027;
-    color: white; }
+.share_all .share {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+.share_all .fa-facebook {
+  background: #3B5998;
+  color: white; }
+.share_all .fa-twitter {
+  background: #55ACEE;
+  color: white; }
+.share_all .fa-pinterest {
+  background: #cb2027;
+  color: white; }
 
 .share:hover {
   opacity: 0.7; }
@@ -403,8 +382,7 @@ h1 {
     font-size: 1em;
     font-weight: 800; }
   .related_articles .tema {
-    margin-top: -5px;
-    margin-left: 5px; }
+    margin-top: -5px; }
   .related_articles .tema a {
     color: darkturquoise;
     text-shadow: grey;
@@ -415,6 +393,9 @@ h1 {
   display: none; }
 
 .on_img {
+  display: none; }
+
+.display_parag {
   display: none; }
 
 @media only screen and (min-width: 768px) {
@@ -433,29 +414,26 @@ h1 {
   body p {
     text-align: justify; }
 
-  .content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+  .article .content {
+    display: flex;
+    padding: 0;
+    margin: 0;
     margin-top: 60px; }
 
   .first {
-    grid-column: 1/2;
-    grid-row: auto; }
+    max-width: 33.3%;
+    padding-right: 20px; }
     .first .author {
       font-size: 0.9em;
       margin-bottom: 60px; }
 
   .second {
-    grid-column: 2/3;
-    grid-row: auto; }
+    max-width: 33.3%;
+    padding: 0 20px; }
 
   .third {
-    grid-column: 3/4;
-    grid-row: auto; }
-
-  .column {
-    padding: 0 20px; }
+    max-width: 33.3%;
+    padding-left: 20px; }
 
   .figure {
     margin: 0;
@@ -485,13 +463,17 @@ h1 {
     margin-right: 3px; }
 
   .related_articles {
-    display: flex; }
+    display: flex;
+    margin-left: 0;
+    margin-right: 0; }
     .related_articles .media_two {
       margin-left: 2%; }
+    .related_articles .tema {
+      margin-left: 10px; }
 
   #related {
     border-bottom: 1px solid darkturquoise;
-    width: 300px;
+    width: 280px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -509,6 +491,9 @@ h1 {
     bottom: 50px;
     width: 350px; } }
 @media only screen and (min-width: 1440px) {
+  .display_parag {
+    display: block; }
+
   .quote {
     font-size: 1.1em;
     padding: 3% 20%;
@@ -521,11 +506,8 @@ h1 {
   .first .author {
     font-size: 1em; }
 
-  .photo {
-    padding: 0 20px; }
-
   .blue_photo {
-    padding: 10px 30px 0; }
+    padding: 10px 0 0; }
 
   .related_articles .media-object {
     max-width: 144px; }
